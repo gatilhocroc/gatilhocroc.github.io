@@ -2,5 +2,9 @@
 ...This website will slow your browser...
 
 
-![Alt-Text](images/EinBild.gif "Webseitebild-Titel")
+
+
+<img src="images/EinBild.gif" alt="Alt-Text" width="250" title="BildTitel"/>
+
+
 
