@@ -4,15 +4,11 @@ Some ops may be using code from contributors or external libraries under differe
 
 Additional code from contributors and libraries in this export are licenced as follows:
 
-MIT:
-
-- glmatrix by toji (https://github.com/toji/gl-matrix)
-
 Public Domain:
 
 - Photoshop math GLSL shaders by Romain Dura (https://mouaif.wordpress.com/2009/01/05/photoshop-math-with-glsl-shaders/)
-- moment.js (https://momentjs.com/)
 
-Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported:
+MIT:
 
-- Domain Warping Shader by inigo quilez (http://iquilezles.org/www/articles/warp/warp.htm)
+- glmatrix by toji (https://github.com/toji/gl-matrix)
+- colorRick (https://github.com/pandrr/colorRick)
