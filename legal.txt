@@ -12,3 +12,7 @@ MIT:
 
 - glmatrix by toji (https://github.com/toji/gl-matrix)
 - colorRick (https://github.com/pandrr/colorRick)
+
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported:
+
+- Domain Warping Shader by inigo quilez (http://iquilezles.org/www/articles/warp/warp.htm)
