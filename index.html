@@ -2,14 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Animixanyvis - KB: Strg=Start Animations ( ;-) use XY Field), Push the Trigger to load a new Visualisation, For best Attention retention play with the Sliders</title>
-    <meta charset="utf-8">p
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-    <meta itemprop="name" content="Animixanyvis - KB: Strg=Start Animations ( ;-) use XY Field), Push the Trigger to load a new Visualisation, For best Attention retention play with the Sliders">
-    <meta itemprop="description" content="made with cables">
-    <meta itemprop="image" content="screenshot.png">
-    <meta name="description" content="made with cables" />
-
+    <title>test_mobil</title>
     <style>
         body {
             margin: 0;
@@ -17,6 +10,7 @@
             color: #fff;
             font-family: Helvetica, Arial, sans-serif;
             overflow: hidden; /* disable scrolling / rubberband effect on mobile */
+            height:100vh;
         }
 
         canvas {
@@ -37,20 +31,25 @@
 
     </style>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta itemprop="name" content="new project_mobil">
+    <meta itemprop="description" content="made with cables">
+    <meta itemprop="image" content="screenshot.png">
+    <meta name="description" content="made with cables" />
+
 </head>
 
 <body>
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
 
     
-    <script type="text/javascript" src="js/patch4.js" async></script>
+    <script type="text/javascript" src="js/patch_mob1.js" async></script>
     
 
-    <script>
-
+    <script type="text/javascript">
         // disable rubberband effect on mobile devices
         document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, false);
-
 
         function patchInitialized(patch) {
             // You can now access the patch object (patch), register variable watchers and so on
@@ -75,5 +74,4 @@
         });
     </script>
 </body>
-
 </html>
